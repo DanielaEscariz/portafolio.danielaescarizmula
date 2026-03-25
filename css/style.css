@@ -1,3 +1,5 @@
+
+
 /* UNIVERSAL */
     * {
         margin: 0;
@@ -68,12 +70,6 @@
         font-weight: 400;
     }
 
-    /* small, .caption {
-        font-size: 12px;
-        color: #777e90;
-        letter-spacing: 1px;
-    } */
-
     /* HOVER */
     a:hover {
         color: #FF4500;           
@@ -82,7 +78,7 @@
 
 
 
-
+/* _____________________________________________________________________ */
 
 
 
@@ -123,16 +119,13 @@
         color: #000;
     }
 
-    /* Para ocultar el menú en desktop */
     .menu-icon {
         display: none; 
     }
 
 
 
-
-
-
+/* _____________________________________________________________________ */
 
 
 /* HOME/ PÁGINA PRINCIPAL/ HERO */
@@ -222,13 +215,7 @@
 
 
 
-
-
-
-
-
-
-/* SECCIONES CINE Y TV/ PROYECTOS */
+/* HOME/ SECCIONES CINE Y TV/ PROYECTOS */
     .project {
         padding: 80px 50px;
     }
@@ -312,7 +299,96 @@
 
 
 
+/* _____________________________________________________________________ */
 
+
+/* SOBRE MI/ CONTENEDOR PRINCIPAL */
+    .sobremi-container {
+        padding: 120px 80px 60px; 
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+
+
+
+/* SOBRE MI/ PRIMERA PARTE */
+    .primera-parte {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        margin-bottom: 80px;
+    }
+
+    .foto-perfil {
+        flex: 1;
+    }
+
+    .foto-perfil > img {
+        width: 100%;
+        border-radius: 30px;
+        object-fit: cover;
+    }
+
+    .texto-perfil {
+        flex: 1.5;
+    }
+
+    .texto-perfil > h1 {
+        font-size: 50px;
+        border-bottom: 4px solid white;
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+
+
+
+/* SOBRE MI/ INFORMACIÓN */
+.info {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr; 
+    gap: 40px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    padding-top: 40px;
+}
+
+.info-bloques > h2 {
+    font-size: 28px;
+    margin-bottom: 25px;
+    font-weight: 900;
+}
+
+.info-bloques > p {
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.info-bloques > strong {
+    color: #fff;
+    display: block;
+}
+
+
+
+/* SOBRE MI/ BOTÓN CV */
+    .btn-cv {
+        background-color: #FF4500;
+        color: black;
+        padding: 12px 25px;
+        border-radius: 30px;
+        font-weight: bold;
+        text-decoration: none;
+        display: inline-block;
+        transition: 0.3s;
+    }
+
+    .btn-cv:hover {
+        transform: scale(1.05);
+        background-color: #fff;
+    }
+
+
+
+/* _____________________________________________________________________ */
 
 
 /* FOOTER */
@@ -383,9 +459,9 @@
 
 
 
+/* _____________________________________________________________________ */
 
-
-/* MEDIA QUERIES (RESPONSIVE) */
+/* MEDIA QUERIES (HOME) */
 
     /* TABLET (Máximo 1024px) */
         @media screen and (max-width: 1024px) {
@@ -486,4 +562,65 @@
         }
     }
 
+
+
+
+    
+/* MEDIA QUERIES (SOBRE MI) */
+    /* TABLET (Máximo 1024px) */
+        @media screen and (max-width: 1024px) {
+
+            .primera-parte {
+                flex-direction: column;
+                text-align: center;
+                gap: 30px;
+                margin-bottom: 50px;
+            }
+
+            .foto-perfil {
+                width: 80%; 
+                margin: 0 auto;
+            }
+
+            .texto-perfil > h1 {
+                font-size: 40px; 
+            }
+
+            .info {
+                grid-template-columns: 1fr 1fr;
+                gap: 30px;
+                padding: 30px 20px;
+            }
+        }
+
+    /* MÓVIL (Máximo 768px) */
+        @media screen and (max-width: 768px) {
+            
+            .sobremi-container {
+                padding: 100px 20px 40px; 
+            }
+
+            .foto-perfil {
+                width: 100%;
+            }
+
+            .info {
+                grid-template-columns: 1fr; 
+                text-align: center; 
+            }
+
+            .info-bloques {
+                border-bottom: 1px solid rgba(255,255,255,0.1);
+                padding-bottom: 20px;
+            }
+
+            .info-bloques:last-child {
+                border-bottom: none; 
+            }
+
+            .info-bloques > h2 {
+                font-size: 24px;
+                margin-bottom: 15px;
+            }
+        }
 
