@@ -25,6 +25,18 @@
 
 
 
+
+/* BOTÓN UP */
+    .fixed-btn {
+        font-size: 20pt;
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        z-index: 9999;
+    }
+
     
 
 
@@ -294,4 +306,75 @@
             height: 100%;
             object-fit: cover;
         }
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+    footer {
+        background-color: #FF4500; 
+        color: black;
+        padding: 25px 0;
+        width: 100%;
+    }
+
+    .f-row {
+        display: flex;
+        justify-content: space-around; 
+        align-items: flex-start;
+        max-width: 1200px;
+        margin: 0 auto; 
+    }
+
+    footer > ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    footer > ul > li > a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .contact, .social-icons {
+        border-left: 2px solid black; 
+        padding-left: 40px;
+    }
+
+    .contact > p {
+        color: black;
+    }
+
+    .social-item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 8px;
+        font-weight: bold;
+    }
+
+    .f-row-copy {
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .f-row-copy > p {
+        font-size: 24px;
+        color:black;
+        margin-top: 20px;
+    }
+    .copyright > p {
+        color:black;
+    }
+
+
+
 
