@@ -80,7 +80,7 @@
         padding: 20px 5%;
     }
 
-    .nav-left , .nav-right {
+    .nav-left, .nav-right {
         display: flex;
         gap: 15px;
     }
