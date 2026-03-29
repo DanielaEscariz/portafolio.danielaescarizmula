@@ -1,144 +1,186 @@
-
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Sobre Mí - Daniela Escariz Mula</title>
+        <title>Daniela Escariz Mula - Sobre mi</title>
 
         <!-- TIPOGRAFÍAS -->
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
         <!-- ICONOS -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-        <!-- CSS SOBRE MI -->
-        <link rel="stylesheet" href="css/style.css">
+        <!-- CSS -->
+            <link rel="stylesheet" href="css/style.css">
     </head>
 
 
+
+
+
+
     <body>
-
-      <!-- MENÚ -->
-        <nav class="nav">
-            <div class="nav-left">
-                <a href="index.html#cine" class="nav-btn">CINE Y TV</a>
-                <a href="index.html#proyectos" class="nav-btn">PROYECTOS</a>
+        <!-- BOTÓN UP -->
+            <div class="fixed-btn">
+                <a href="#nav">
+                <i class="fa-solid fa-arrow-up"></i>
+                </a>
             </div>
-            <div class="nav-center">
-                <h2 class="name">DANIELA ESCARIZ MULA</h2>
-            </div>
-            <div class="nav-right">
-                <a href="index.html" class="nav-btn active">INICIO</a>
-                <a href="#contacto" class="nav-btn">CONTACTO</a>
-            </div>
-        </nav>
 
 
-        <!-- CONTENEDORES -->
-        <main class="sobremi-container">
-            <section class="primera-parte">
-                <div class="foto-perfil">
-                    <img src="media/img/sobremi/IMG_5522 2.jpg" alt="Daniela Escariz Mula">
+
+        <!-- MENÚ: NAVEGACIÓN -->
+            <header class="nav" id="nav">
+                <div class="nav-left">
+                    <a href="index.html" class="nav-btn">CINE Y TV</a>
+                    <a href="index.html" class="nav-btn">PROYECTOS</a>
                 </div>
-                <div class="texto-perfil">
-                    <h1>DANIELA ESCARIZ MULA</h1>
-                    <h3>DISEÑADORA GRÁFICA</h3>
-                    <p>Especializada en la gráfica de la industria audiovisual.</p>
+
+                <div class="name">
+                    DANIELA ESCARIZ MULA
                 </div>
+
+                <div class="nav-right">
+                    <a href="index.html" class="nav-btn">INICIO</a>
+                    <a href="#footer" class="nav-btn">CONTACTO</a>
+                </div>
+
+                <div class="nav-icon">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </header>
+
+
+
+        <!-- SOBRE MI -->
+         <main class="sobremi-container">
+            <section class="sobremi">
+                <h2>SOBRE MI</h2>
+                
+                <div class="sobremi-content">
+                    <div>
+                        <img src="media/img/sobremi/IMG_5522 2.jpg" alt="Daniela Escariz Mula">
+                    </div>
+                    
+                    <div>
+                        <h1>DANIELA ESCARIZ MULA</h1>
+                        <h3>DISEÑADORA GRÁFICA</h3>
+                        <p>
+                            Bienvenidos a mi universo creativo, donde el diseño gráfico cobra vida en todas sus formas. Desde el cine, que me enseñó a crear mundos visuales, hasta el diseño más insignificante ha sido una oportunidad para crecer y dejar mi huella. Este espacio reúne no solo lo que he hecho, sino lo que me mueve. Cada diseño cuenta una historia, conecta y emociona. Te invito a descubrirlo y, quizás, encontrar algo que también te inspire.
+                        </p>
+                    </div>
+                </div>
+
             </section>
 
-            <section class="info">
-                <div class="info-bloques">
-                    <h2>ESTUDIOS</h2>
-                    <div class="item">
-                        <p><strong>GRADO</strong> Diseño Gráfico y Multimedia</p>
+            <section class="sobremi-info">
+                
+                <div class="detalle">
+                    <h4>ESTUDIOS</h4>
+                    <div class="item-detalle">
+                        <p class="estudio-bold">GRADO</p>
+                        <p>Diseño Gráfico y Multimedia</p>
                         <p>Universidad de Desarrollo Innovación y Tecnología (En curso)</p>
                     </div>
-                    <div class="item">
-                        <p><strong>CFGS</strong> Diseño y Edición de Publicaciones Impresas y Multimedia</p>
+                    <div class="item-detalle">
+                        <p class="estudio-bold">CFGS</p>
+                        <p>Diseño y Edición de Publicaciones Impresas y Multimedia</p>
                         <p>IES Islas Filipinas</p>
                     </div>
                 </div>
 
-                <div class="info-bloques">
-                    <h2>HABILIDADES</h2>
-                    <p>PACK ADOBE</p>
-                    <p>CINEMA 4D</p>
-                    <p>WIX</p>
-                    <p>WEEBLY</p>
+                <div class="detalle">
+                    <h4>HABILIDADES</h4>
+                    <ul>
+                        <li>PACK ADOBE</li>
+                        <li>CINEMA 4D</li>
+                        <li>WIX</li>
+                        <li>WEEBLY</li>
+                    </ul>
                 </div>
 
-                <div class="info-bloques">
-                    <h2>CONTACTO</h2>
+                <div class="detalle" id="contacto">
+                    <h4>CONTACTO</h4>
                     <p>683327915</p>
                     <p>laboral.danielaescariz@gmail.com</p>
-                    <p>Madrid, España</p>
+                    <p>Madrid, España.</p>
                 </div>
 
-                <div class="info-bloques">
-                    <h2>CV</h2>
-                    <a href="media/archivos/cv.pdf" class="btn-cv" download>DESCARGAR CV</a>
+                <div class="detalle">
+                    <h4>CV</h4>
+                    <a href="media/archivos/cv.pdf" target="_blank">
+                        DESCARGAR CV
+                    </a>
                 </div>
+
             </section>
+
         </main>
+            
 
-
-
-         <!-- FOOTER -->
-            <footer>
+            
+        <!-- FOOTER -->
+            <footer id="footer">
                 <div class="f-row">
-                    <nav>
-                        <ul>
-                            <li>
-                                <a href="index.html">Inicio</a>
-                            </li>
-                            <li>
-                                <a href="#proyectos">Proyectos</a>
-                            </li>
-                            <li>
-                                <a href="sobremi.html">Sobre mí</a>
-                            </li>
-                            <li>
-                                <a href="#">Contacto</a>
-                            </li>
-                        </ul>
-                    </nav>
+                    <div class="f-col">
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="index.html">Inicio</a>
+                                </li>
 
-                    <div class="contact">
+                                <li>
+                                    <a href="#proyectos">Proyectos</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="sobremi.html">Sobre mí</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="#contacto">Contacto</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="f-col contact">
                         <p>683327915</p>
                         <p>laboral.danielaescariz@gmail.com</p>
                         <p>Madrid, España</p>
                     </div>
 
                     <div class="social-icons">
-                        <div class="social-item">
-                            <a href="https://www.linkedin.com/in/daniela-escariz-mula-b89567330/?originalSubdomain=es" target="_blank">
-                                <i class="fa-brands fa-linkedin"></i>
-                            </a>
-                            <span>DANIELA</span>
+                            <div class="social-item">
+                                <a href="https://www.linkedin.com/in/daniela-escariz-mula-b89567330/?originalSubdomain=es" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <span>DANIELA</span>
+                            </div>
+                            <div class="social-item">
+                                <a href="https://www.instagram.com/daniela.escariz/" target="_blank">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                                <span>ESCARIZ MULA</span>
+                            </div>
+                            <div class="social-item">
+                                <a href="https://www.facebook.com/p/Daniela-Escariz-Mula-61572909012334/" target="_blank">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                                <span>DISEÑADORA GRÁFICA</span>
+                            </div>
                         </div>
-                        <div class="social-item">
-                            <a href="https://www.instagram.com/daniela.escariz/" target="_blank">
-                                <i class="fa-brands fa-instagram"></i>
-                            </a>
-                            <span>ESCARIZ MULA</span>
-                        </div>
-                        <div class="social-item">
-                            <a href="https://www.facebook.com/p/Daniela-Escariz-Mula-61572909012334/" target="_blank">
-                                <i class="fa-brands fa-facebook"></i>
-                            </a>
-                            <span>DISEÑADORA GRÁFICA</span>
-                        </div>
-                    </div>
                 </div>
 
                 <div class="f-row-copy">
-                    <div class="copyright">
-                        <p>©2026 All Rights Reserved. Hecho por Daniela Escariz Mula</p>
-                    </div>
+                        <div class="copyright">
+                            <p>©2026 All Rights Reserved. Hecho por Daniela Escariz Mula</p>
+                        </div>
                 </div>
-        </footer>    
+            </footer>            
 
-        </body>
+    </body>
 </html>

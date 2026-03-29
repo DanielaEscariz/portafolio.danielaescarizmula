@@ -3,122 +3,190 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>La Fiera-Daniela Escariz</title>
+        <title>La Fiera - Daniela Escariz Mula</title>
 
         <!-- TIPOGRAFÍAS -->
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
         <!-- ICONOS -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-        <!-- CSS SOBRE MI -->
-        <link rel="stylesheet" href="css/style.css">
+        <!-- CSS -->
+            <link rel="stylesheet" href="css/style.css">
     </head>
 
 
-    
+
+
     <body>
-
-        <!-- MENÚ -->
-        <nav class="nav">
-            <div class="nav-left">
-                <a href="index.html" class="nav-btn">INICIO</a>
-                <a href="index.html#proyectos" class="nav-btn">PROYECTOS</a>
+        <!-- BOTÓN UP -->
+            <div class="fixed-btn">
+                <a href="#nav">
+                <i class="fa-solid fa-arrow-up"></i>
+                </a>
             </div>
-            <div class="nav-center">
-                <h2 class="name">DANIELA ESCARIZ MULA</h2>
-            </div>
-            <div class="nav-right">
-                <a href="sobremi.html" class="nav-btn active">SOBRE MI</a>
-                <a href="#contacto" class="nav-btn">CONTACTO</a>
-            </div>
-        </nav>
+
+
+            
+
+        <!-- MENÚ: NAVEGACIÓN -->
+            <header class="nav">
+                <div class="nav-left">
+                    <a href="index.html" class="nav-btn">CINE Y TV</a>
+                    <a href="index.html" class="nav-btn">INICIO</a>
+                </div>
+
+                <div class="name">
+                    DANIELA ESCARIZ MULA
+                </div>
+
+                <div class="nav-right">
+                    <a href="sobremi.html" class="nav-btn">SOBRE MÍ</a>
+                    <a href="#footer" class="nav-btn">CONTACTO</a>
+                </div>
+
+                <div class="nav-icon">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </header>
 
 
 
-        <!-- CONTENEDORES -->
-        <main class="detalle-container">
-        <section class="detalle-header">
-            <div class="cartel-principal">
-                <img src="media/img/lafiera/lafieracartel.gif" alt="La Fiera">
-            </div>
-            <div class="texto-detalle">
-                <h1>LA FIERA</h1>
-                <h3 class="rol-proyecto">GRAFISTA - MOD PRODUCCIONES</h3>
-                <p>Cuenta la historia de Manolo Chana, Álvaro Bultó, Darío Barrio y Carlos Suárez, cuatro amigos a los que les unía su pasión por el salto BASE, literalmente saltar a gran altura desde sitios fijos, usando un paracaídas para llegar hasta el suelo.</p>
-            </div>
-        </section>
+        
+        <!-- DETALLE PROYECTOS: TÍTULO Y DESCRIPCIÓN-->
+            <main class="proyecto-detalle">
+                
+                <section class="proyecto-descripcion">
+                    <div class="proyecto-cartel">
+                        <img src="media/img/lafiera/lafieracartel.gif" alt="Cartel La Fiera">
+                    </div>
 
-        <section class="galeria-fotos">
-            <div class="foto-item"><img src="media/img/lafiera/ficticios/lafieraficticiouno.gif"></div>
-            <div class="foto-item"><img src="media/img/lafiera/ficticios/lafieraficticiodos.gif"></div>
-            <div class="foto-item"><img src="media/img/lafiera/ficticios/lafieraficticiotres.gif"></div>
-            <div class="foto-item"><img src="media/img/lafiera/ficticios/lafieraficticiocuatro.gif"></div>
-            <div class="foto-item"><img src="media/img/lafiera/ficticios/lafieraficticioseis.gif"></div>
-            <div class="foto-item"><img src="media/img/lafiera/ficticios/lafieraficticiosiete.gif"></div>
-            <div class="foto-item"><img src="media/img/lafiera/ficticios/lafieraficticioocho.gif"></div>
-            <div class="foto-item"><img src="media/img/lafiera/ficticios/lafieraficticionueve.gif"></div>
-            <div class="foto-item"><img src="media/img/lafiera/ficticios/lafieraficticiodiez.gif"></div>
-        </section>
-        </main>
+                    <div class="proyecto-info">
+                        <h1 class="proyecto-titulo">LA FIERA</h1>
+                        <h3 class="proyecto-cargo">GRAFISTA - MOD PRODUCCIONES</h3>
+                        
+                        <div class="proyecto-textos">
+                            <h3>SINOPSIS</h3>
+                            <p class="sinopsis">
+                                Cuenta la historia de Manolo Chana, Álvaro Bultó, Darío Barrio y Carlos Suárez, cuatro amigos a los que les unía su pasión por el salto BASE, literalmente saltar a gran altura desde sitios fijos, usando un paracaídas para llegar hasta el suelo.
+                            </p>
+
+                            <h3>GRÁFICA</h3>
+                            <p class="mi-trabajo">
+                                Para este proyecto, me encargué de la creación de toda la identidad gráfica dentro de la película. Trabajé en el diseño de interfaces digitales, documentos ficticios para atrezzo y la coordinación visual de los grafismos en pantalla para asegurar la coherencia con la narrativa del proyecto audiovisual.
+                            </p>
+                        </div>
+                    </div>
+                </section>
 
 
 
+        <!-- DETALLE PROYECTOS: GALERÍA DE FOTOS-->
+                <section class="proyecto-galeria">
+                    <div class="proyecto-galeria">
+                        <div class="ficticios">
+                            <img src="media/img/lafiera/ficticios/lafieraficticiouno.gif" alt="Ficticio 1">
+                        </div>
 
+                        <div class="ficticios">
+                            <img src="media/img/lafiera/ficticios/lafieraficticiodos.gif" alt="Ficticio 2">
+                        </div>
+
+                        <div class="ficticios">
+                            <img src="media/img/lafiera/ficticios/lafieraficticiotres.gif" alt="Ficticio 3">
+                        </div>
+                      
+                        <div class="ficticios">
+                            <img src="media/img/lafiera/ficticios/lafieraficticiocuatro.gif" alt="Ficticio 4">
+                        </div>
+                       
+                        <div class="ficticios">
+                            <img src="media/img/lafiera/ficticios/lafieraficticiocinco.gif" alt="Ficticio 5">
+                        </div>
+                       
+                        <div class="ficticios">
+                            <img src="media/img/lafiera/ficticios/lafieraficticioseis.gif" alt="Ficticio 6">
+                        </div>
+                       
+                        <div class="ficticios">
+                            <img src="media/img/lafiera/ficticios/lafieraficticiosiete.gif" alt="Ficticio 7">
+                        </div>
+                     
+                        <div class="ficticios">
+                            <img src="media/img/lafiera/ficticios/lafieraficticioocho.gif" alt="Ficticio 8">
+                        </div>
+                       
+                        <div class="ficticios">
+                            <img src="media/img/lafiera/ficticios/lafieraficticionueve.gif" alt="Ficticio 9">
+                        </div>
+                    </div>
+                </section>
+
+            </main>
+
+
+            
         <!-- FOOTER -->
-            <footer>
+            <footer id="footer">
                 <div class="f-row">
-                    <nav>
-                        <ul>
-                            <li>
-                                <a href="index.html">Inicio</a>
-                            </li>
-                            <li>
-                                <a href="#proyectos">Proyectos</a>
-                            </li>
-                            <li>
-                                <a href="sobremi.html">Sobre mí</a>
-                            </li>
-                            <li>
-                                <a href="#">Contacto</a>
-                            </li>
-                        </ul>
-                    </nav>
+                    <div class="f-col">
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="index.html">Inicio</a>
+                                </li>
 
-                    <div class="contact">
+                                <li>
+                                    <a href="#proyectos">Proyectos</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="sobremi.html">Sobre mí</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="#contacto">Contacto</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="f-col contact">
                         <p>683327915</p>
                         <p>laboral.danielaescariz@gmail.com</p>
                         <p>Madrid, España</p>
                     </div>
 
                     <div class="social-icons">
-                        <div class="social-item">
-                            <a href="https://www.linkedin.com/in/daniela-escariz-mula-b89567330/?originalSubdomain=es" target="_blank">
-                                <i class="fa-brands fa-linkedin"></i>
-                            </a>
-                            <span>DANIELA</span>
+                            <div class="social-item">
+                                <a href="https://www.linkedin.com/in/daniela-escariz-mula-b89567330/?originalSubdomain=es" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <span>DANIELA</span>
+                            </div>
+                            <div class="social-item">
+                                <a href="https://www.instagram.com/daniela.escariz/" target="_blank">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                                <span>ESCARIZ MULA</span>
+                            </div>
+                            <div class="social-item">
+                                <a href="https://www.facebook.com/p/Daniela-Escariz-Mula-61572909012334/" target="_blank">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                                <span>DISEÑADORA GRÁFICA</span>
+                            </div>
                         </div>
-                        <div class="social-item">
-                            <a href="https://www.instagram.com/daniela.escariz/" target="_blank">
-                                <i class="fa-brands fa-instagram"></i>
-                            </a>
-                            <span>ESCARIZ MULA</span>
-                        </div>
-                        <div class="social-item">
-                            <a href="https://www.facebook.com/p/Daniela-Escariz-Mula-61572909012334/" target="_blank">
-                                <i class="fa-brands fa-facebook"></i>
-                            </a>
-                            <span>DISEÑADORA GRÁFICA</span>
-                        </div>
-                    </div>
                 </div>
 
                 <div class="f-row-copy">
-                    <div class="copyright">
-                        <p>©2026 All Rights Reserved. Hecho por Daniela Escariz Mula</p>
-                    </div>
+                        <div class="copyright">
+                            <p>©2026 All Rights Reserved. Hecho por Daniela Escariz Mula</p>
+                        </div>
                 </div>
-            </footer>     
+            </footer>            
 
     </body>
 </html>
